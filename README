@@ -1,7 +1,7 @@
 The pattern for submissions is:
 
 	Path := Course "/" University "/" Term "/" [ Author "-" ] DocumentType [ "-" ExtraInfo ] "." FileExtension;
-	Term := ( "WS" Year Year ) | ( "SS" | Year );
+	Term := ( "WS" Year Year ) | ( "SS" Year );
 	Year := Digit Digit;
 	Digit := "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "0";
 
