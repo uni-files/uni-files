@@ -1,6 +1,11 @@
 The pattern for submissions is:
 
-    [Lesson-Name]/[University-Name]/[Year]/[Author]-[Type].ext
+	Path := Course "/" University "/" Term "/" [ Author "-" ] DocumentType [ "-" ExtraInfo ] "." FileExtension;
+	Term := ( "WS" Year Year ) | ( "SS" | Year );
+	Year := Digit Digit;
+	Digit := "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "0";
+
+Examples for DocumentType are "Klausur", "Übung", "Lösung", "Skript", etc.
 
 Examples:
 
