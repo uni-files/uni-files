@@ -14,5 +14,19 @@ Examples:
     Datensicherheit/HS Ravensburg-Weingarten/SS09/Ertel-Klausur.pdf
 
     # filled out lecture notes
-    Systemsicherheit/HS Ravensburg-Weignarten/SS09/RainerHihn-Skript.pdf
+    Systemsicherheit/HS Ravensburg-Weingarten/SS09/RainerHihn-Skript.pdf
 
+Using git:
+
+    Checking out ( pull ):
+    $ git pull
+
+    Problem handling:
+    $ git reset --hard HEAD
+    $ git clean -f -d
+    $ git pull
+
+    Commiting changes and new files ( handling the file README in this example ):
+    $ git add README
+    $ git commit -m 'added instructions how to use git'
+    $ git push -u origin master
